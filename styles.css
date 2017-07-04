@@ -115,20 +115,15 @@ a:hover, a:active {
 
 }
 #logoteksti{
-
     color:white;
     background-color: 002F6C;
     padding-top: 20px;
     font-family: 'koskifont';
     font-size: 8em;
-
 }
 
 #menuwrapper{
     text-align: center;
-
-
-
 }
 
 .yhteystiedot{
@@ -158,6 +153,49 @@ a:hover, a:active {
     height: 200px;
 
 
+}
+
+#banneri{
+
+    background-color: 002F6C;
+    color:white;
+    font-size: 4em;
+    font-family: 'koskifont';
+    text-align: center;
+
+}
+
+.bannerbutton{
+
+    background-color: 002F6C; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin:10px;
+    border-radius: 14px;
+    font-family: 'koskifont';
+    font-size: 0.5em;
+
+}
+.button666{
+    background-color: 002F6C;
+    color: white;
+    border: 2px solid white;
+    font-family:'leipateksti';
+}
+
+
+.button666:hover {
+    background-color: white;
+    color: 002F6C;
 }
 
 .varauslomakewrapper{
@@ -199,13 +237,21 @@ a:hover, a:active {
     padding: 16px 16px;
     }
 
+    .hintaluettelo {
+    margin:5%;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+
     .newspaper {
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
 }
     a{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .valokuvatala{
