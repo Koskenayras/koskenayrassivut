@@ -99,6 +99,16 @@ a:hover, a:active {
     column-count: 3;
 }
 
+.footerinfo {
+    margin-left:10%;
+    margin-right: 10%;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    background-color: 002F6C;
+    color: white;
+}
+
 #logowrapper{
     text-align: center;
     background-color: 002F6C;
@@ -145,9 +155,16 @@ a:hover, a:active {
 #footerwrapper{
     background-color: 002F6C;
     width: 100%;
-    height: 300px;
+    height: 200px;
+
 
 }
+
+.varauslomakewrapper{
+    margin-left: 5%;
+}
+
+
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -190,6 +207,11 @@ a:hover, a:active {
     a{
         font-size: 3em;
     }
+
+    .valokuvatala{
+    max-width: 32%;
+}
+
 
 }
 
